@@ -18,7 +18,7 @@ function App() {
           <div className='mainWindow'>
             <Routes>
               <Route path='/' element={<Swap />} />
-              <Route path='/tokens' element={<Tokens />} />
+              {/* <Route path='/tokens' element={<Tokens />} /> */}
             </Routes>
           </div>
         </div>

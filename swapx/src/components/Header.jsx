@@ -33,7 +33,7 @@ function Header(props) {
         <Link to='/' className='link'>
           <div className='headerItem'>Swap X</div>
         </Link>
-        <Link to='/tokens' className='link'>
+        <Link to='/' className='link'>
           <div className='headerItem'>Tokens</div>
         </Link>
       </div>
