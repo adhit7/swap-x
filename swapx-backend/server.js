@@ -43,6 +43,10 @@ app.get('/tokenPrice', async (req, res) => {
   }
 });
 
+app.get('/', () => {
+  console.log(`Swap X API is running`);
+});
+
 app.listen(port, () => {
   console.log(`Listening for API Calls`);
 });
